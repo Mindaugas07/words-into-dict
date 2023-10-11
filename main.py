@@ -1,6 +1,7 @@
 
 letter_dict = {}
-word_list = input("Please enter five words separated by comma: ").split(",")
+words = input("Please enter five words separated by comma: ")
+word_list = words.split(",")
 for word in word_list:
     for letter in word:
         if letter in letter_dict:
